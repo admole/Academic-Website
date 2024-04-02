@@ -33,9 +33,9 @@ skills: # Remove for hiding the skills section
   -  Python
   -  Fortran
   -  C++
+  -  XCompact3D
   -  OpenFOAM
   -  Star-CCM+
-  -  XCompact3D
  # -  Git
   # -  Bash
   # -  HPC

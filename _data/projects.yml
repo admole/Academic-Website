@@ -1,3 +1,64 @@
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: 
+    image:
+      path: "steering.png" # path: assets/project/
+      alt: Optimised Wind Farm Wake Control
+    date: 07/2023 &ndash; 
+    title: Physics Aware Machine Learning for Wind Farm Optimisation
+    summary: Development of a multi-fidelity Bayesian optimisation method and its application to wake steering for increasing the power output from wind farms.
+    description: Wind farm ...
+    contents:
+      - title: 1. Multi-fidelity Bayesian optimiastion
+        image:
+          path: "MF_analytical_4.png"
+        description: 
+      - title: 2. Wind farm wake steering
+        image:
+          path: "wake.png"
+        description: 
+      - title: 3. Large Eddy Simulations
+        image:
+          path: "MF-BO.png"
+        description:
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: 
+    image:
+      path: "NC_Loop.png" # path: assets/project/
+      alt: Natural convection flow
+    date: 11/2022 &ndash; 07/2023
+    title: Multi-Fidelity Methods for Natural Convection
+    summary: Developing a 1D-3D multifidelity framework for application to natural convection flow.
+    description: Developing a 1D-3D multifidelity framework for application to natural convection flow.
+    contents:
+      - title: 1. Developing coupling stratagy
+        image:
+          path: "3D-1D.png"
+        description: Coupling global 3D domain to global 1D domain by introducing corrective source terms.
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/admole/Multi-Fidelity-Surrogate # Full URL
+    image:
+      path: "MFR.png" # path: assets/project/
+      alt: Diagram showing a multi-fidelity neural network
+    date: 10/2021 &ndash; 10/2022
+    title: Multi-Fidelity Surrogate Modelling
+    summary: Developing a multi-fidelity surrogate modelling framework for application to CFD data.
+    description:  Developing a multi-fidelity surrogate modelling framework for application to CFD data.
+    contents:
+      - title: 1. Application to single parameters
+        image:
+          path: "MFR_probe.png"
+      - title: 2. Application to slices of velocity
+        image:
+          path: "MFR_slice.png"
+
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -36,63 +97,3 @@
         #     <li>Coupling in both directions</li> 
 
 
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/admole/Multi-Fidelity-Surrogate # Full URL
-    image:
-      path: "MFR.png" # path: assets/project/
-      alt: Diagram showing a multi-fidelity neural network
-    date: 10/2021 &ndash; 10/2022
-    title: Multi-Fidelity Surrogate Modelling
-    summary: Developing a multi-fidelity surrogate modelling framework for application to CFD data.
-    description:  Developing a multi-fidelity surrogate modelling framework for application to CFD data.
-    contents:
-      - title: 1. Application to single parameters
-        image:
-          path: "MFR_probe.png"
-      - title: 2. Application to slices of velocity
-        image:
-          path: "MFR_slice.png"
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: 
-    image:
-      path: "NC_Loop.png" # path: assets/project/
-      alt: Natural convection flow
-    date: 11/2022 &ndash; 07/2023
-    title: Multi-Fidelity Methods for Natural Convection
-    summary: Developing a 1D-3D multifidelity framework for application to natural convection flow.
-    description: Developing a 1D-3D multifidelity framework for application to natural convection flow.
-    contents:
-      - title: 1. Developing coupling stratagy
-        image:
-          path: "3D-1D.png"
-        description: Coupling global 3D domain to global 1D domain by introducing corrective source terms.
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: 
-    image:
-      path: "steering.png" # path: assets/project/
-      alt: Optimised Wind Farm Wake Control
-    date: 07/2023 &ndash; 
-    title: Physics Aware Machine Learning for Wind Farm Optimisation
-    summary: Development of a multi-fidelity Bayesian optimisation method and its application to wake steering for increasing the power output from wind farms.
-    description: Wind farm ...
-    contents:
-      - title: 1. Multi-fidelity Bayesian optimiastion
-        image:
-          path: "MF_analytical_4.png"
-        description: 
-      - title: 2. Wind farm wake steering
-        image:
-          path: "wake.png"
-        description: 
-      - title: 3. Large Eddy Simulations
-        image:
-          path: "MF-BO.png"
-        description:

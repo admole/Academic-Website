@@ -1,7 +1,8 @@
-# - presentation:
-#     title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
-#     event: UK Turbulence Consortium Meeting
-#     date: 03/2024
+- presentation:
+    title: LES/Wake Model Multi-fidelity Bayesian Optimisation for Wind Farms
+    event: UK Turbulence Consortium Meeting
+    comment: __Prize for Best Presentation__
+    date: 03/2024
 - presentation:
     title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
     event: Machine Leaning for Fluid Dynamics Workshop

@@ -9,8 +9,8 @@
       .img {
         overflow: hidden;
         display: inline-block;
-        width: 180px;
-        height: 180px;
+        width: 220px;
+        height: 220px;
         border-radius: 15px;
         img {
           width: 100%;
@@ -37,11 +37,11 @@
       }
       #icons li {
         i {
-          width: 35px;
-          height: 35px;
+          width: 50px;
+          height: 50px;
           color: #fff;
           background-color: $theme-dark;
-          line-height: 35px;
+          line-height: 50px;
         }
         i:hover {
           background-color: #fff;
@@ -64,13 +64,13 @@
     margin-bottom: 55px;
     margin-top: 55px;
     .title {
-      margin-top: 15px;
+      margin-top: 45px;
       color: $theme-dark;
       font-size: 25px;
       font-weight: 600;
     }
     .exper {
-      padding-top: 35px;
+      padding-top: 5px;
       ul.exper-list {
         margin-top: 25px;
         margin-left: 3%;
@@ -112,7 +112,7 @@
       }
       @keyframes fadein {
         from {
-          transform: translateY(-10%);
+          transform: translateY(-40%);
           opacity: 0;
         }
         to {

@@ -1,11 +1,55 @@
+# - presentation:
+#     title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
+#     event: UK Turbulence Consortium Meeting
+#     date: 03/2024
 - presentation:
-    title: A nice presentation
-    event: Fancy conference
+    title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
+    event: Machine Leaning for Fluid Dynamics Workshop
+    date: 03/2024
+- presentation:
+    title: XGBoost-augmented RANS Closure Modelling of Complex 3D FLows
+    event: UK Fluids Network Workshop in Data-driven Methods, Machine Learning and Optimisation in fluid Mechanics
+    slides: https://fluids.leeds.ac.uk/wp-content/uploads/sites/44/2022/10/Andrew-Mole.pdf
+    date: 03/2023
+- presentation:
+    title: Multi-fidelity Surrogate Modelling of Wall Mounted Cubes
+    event: UK Turbulence Consortium Meeting
+    comment: __Prize for Best Presentation__
+    date: 03/2023
+- presentation:
+    title: Multi-fidelity Methods for Aerodynamic Applications
+    event: The 8th European Congress on Computational Methods in Applied Sciences and Engineering
+    date: 06/2022
+- presentation:
+    title: Multi-fidelity Methods for Aerodynamic Applications
+    event: Modelling and Simulation Center Seminar series
     date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
-    hub: example-hub # potential hub page to link to
 - presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
+    title: Multi-fidelity Surrogate Modelling for Aerodynamic Applications
+    event: BAE Systems Physics Informed Machine Learning Seminar
+    date: 04/2022
+- presentation:
+    title: Addressing the Challenges of Combined Embedded LES
+    event: Engineering, Turbulence, Modelling and Measurements Symposium
+    date: 09/2021
+    # slides: https://www.google.com # potential link to slides
+    # hub: example-hub # potential hub page to link to
+- presentation:
+    title: Recent Developments in Embedded Large Eddy Simulation
+    event: UK Turbulence Consortium Fundamentals Series
+    date: 06/2021
+    slides: https://youtu.be/OK3Zno9pbXo?t=1008
+- presentation:
+    title: Embedded LES of Streamwise Vortices Within a Turbulent Boundary Layer
+    event: MACE Postgraduate Conference
+    comment: __Prize for Best Presentation__
+    date: 06/2020
+- presentation:
+    title: Embedded LES of Turbulent Boundary Layers
+    event: UK Fluids Network Special Interest Group
+    date: 09/2019
+    slides: assets/Posters/vortex-poster.pdf
+- presentation:
+    title: Embedded Large Eddy Simulation of a Spatially Developing Turbulent Boundary Layer
+    event: European Turbulence Conference
+    date: 09/2019

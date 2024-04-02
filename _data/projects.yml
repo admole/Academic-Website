@@ -3,25 +3,47 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: 
     image:
-      path: "steering.png" # path: assets/project/
+      path: "RL_short_slow.gif" # path: assets/project/
+      alt: Optimised Wind Farm Wake Control
+    date: 12/2023 &ndash; 
+    title: Reinforcement Learning for Dynamic Wind Farm Control
+    summary: Reinforcement learning is applied to a LES wind farm environment to find dynamic control stratagies for improving power output.
+    description: Reinforcement learning is applied to a LES wind farm environment to find dynamic control stratagies for improving power output. 
+    contents:
+      - title: 1. Wind Farm Environment
+        image:
+          path: "RL_short.gif"
+        description: 
+      - title: 2. Ongoing work...
+        image:
+          path: 
+        description: 
+
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: 
+    image:
+      path: "over_iso.gif" # path: assets/project/
       alt: Optimised Wind Farm Wake Control
     date: 07/2023 &ndash; 
-    title: Physics Aware Machine Learning for Wind Farm Optimisation
-    summary: Development of a multi-fidelity Bayesian optimisation method and its application to wake steering for increasing the power output from wind farms.
-    description: Wind farm ...
+    title: Multi-Fidelity Bayesian Optimisation for Wind Farms
+    summary: The total power output of  a wind farm is increased by using multi-fidelity Bayesian optimisation to find optimal turbine controls in an efficiient way.
+    description: A multi-fidelity Bayesian optimisation method is applied to wind farm wake steering for increasing the power output.
     contents:
       - title: 1. Multi-fidelity Bayesian optimiastion
         image:
           path: "MF_analytical_4.png"
-        description: 
+        description:  Multi-fidelity Bayesian optimiastion process is built based on a non-linear autoregressive Gaussian Process model and an acquisition function to select the next experiment configuration and fidelity.
       - title: 2. Wind farm wake steering
         image:
-          path: "wake.png"
-        description: 
+          path: "steering.png"
+        description: Yawing the angle of the turbines to the incoming wind direction within a wind farm can increase the total power output of the farm. 
       - title: 3. Large Eddy Simulations
         image:
           path: "MF-BO.png"
-        description:
+        description: Combining LES simulations and analytical wake models in a multi-fidelity bayesian optimisation framework allows cheap experiments to inform the optimal placement of expensive experiments.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -32,8 +54,8 @@
       alt: Natural convection flow
     date: 11/2022 &ndash; 07/2023
     title: Multi-Fidelity Methods for Natural Convection
-    summary: Developing a 1D-3D multifidelity framework for application to natural convection flow.
-    description: Developing a 1D-3D multifidelity framework for application to natural convection flow.
+    summary: Developing a 1D-3D multifidelity framework for application to the simulation of natural convection flow.
+    description: Developing a 1D-3D multifidelity framework for application to the simulation of natural convection flow.
     contents:
       - title: 1. Developing coupling stratagy
         image:
@@ -49,8 +71,8 @@
       alt: Diagram showing a multi-fidelity neural network
     date: 10/2021 &ndash; 10/2022
     title: Multi-Fidelity Surrogate Modelling
-    summary: Developing a multi-fidelity surrogate modelling framework for application to CFD data.
-    description:  Developing a multi-fidelity surrogate modelling framework for application to CFD data.
+    summary: Developing a multi-fidelity surrogate modelling framework for application to CFD data from RANS and LES.
+    description:  Developing a multi-fidelity surrogate modelling framework for application to CFD data from RANS and LES.
     contents:
       - title: 1. Application to single parameters
         image:

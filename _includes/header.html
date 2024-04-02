@@ -18,6 +18,11 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
+        {% if site.cv %}
+          <a href="{{ '/cv' | relative_url }}">
+            <li class="btn-nav">CV</li>
+          </a>
+        {% endif %}
         {% if site.blog %}
           <a href="{{ '/blog' | relative_url }}">
             <li class="btn-nav">Blog</li>
@@ -35,6 +40,11 @@
         {% if site.presentations %}
           <a href="{{ '/presentations' | relative_url }}">
             <li class="btn-nav">Presentations</li>
+          </a>
+        {% endif %}
+        {% if site.cv %}
+          <a href="{{ '/cv' | relative_url }}">
+            <li class="btn-nav">CV</li>
           </a>
         {% endif %}
         {% if site.blog %}
@@ -64,6 +74,35 @@
             <li class="btn-nav">Tags</li>
           </a>
         {% endif %}
+        {% if site.cv %}
+          <a href="{{ '/cv' | relative_url }}">
+            <li class="btn-nav">CV</li>
+          </a>
+        {% endif %}
+        <!-- cv -->
+        {% when 'cv' %}
+        <a href="{{ '/'' | relative_url }}">
+          <li class="btn-nav">Home</li>
+        </a>
+        {% if site.publications %}
+          <a href="{{ '/publications' | relative_url }}">
+            <li class="btn-nav">Publications</li>
+          </a>
+        {% endif %}
+        {% if site.blog %}
+          <a href="{{ '/blog' | relative_url }}">
+            <li class="btn-nav">Blog</li>
+          </a>
+          <a href="{{ '/tags' | relative_url }}">
+            <li class="btn-nav">Tags</li>
+          </a>
+        {% endif %}
+        {% if site.presentations %}
+          <a href="{{ '/presentations' | relative_url }}">
+            <li class="btn-nav">Presentations</li>
+          </a>
+        {% endif %}
+        <li class="current">CV</li>
         <!-- blog -->
         {% when 'blog' %}
         <a href="{{ '/' | relative_url }}">
@@ -115,6 +154,11 @@
         {% if site.presentations %}
           <a href="{{ '/presentations' | relative_url }}">
             <li class="btn-nav">Presentations</li>
+          </a>
+        {% endif %}
+        {% if site.cv %}
+          <a href="{{ '/cv' | relative_url }}">
+            <li class="btn-nav">CV</li>
           </a>
         {% endif %}
         {% if site.blog %}

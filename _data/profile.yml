@@ -1,33 +1,60 @@
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+image: assets/img/me.jpg
+username: Andrew Mole
+description: Post-doc reseacher interested in developing multi-fidelity methods for computational fluid dynamics. 
+webpage: https://admole.github.io
 experience: # Remove for hiding the experience section
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2023
+    end: 
+    experience: Research Associate, Imperial College London
+  - start: 2022
+    end: 2023
+    experience: Research Assistant, University of Manchester
+  - start: 2018
+    end: 2022
+    experience: PhD Researcher, University of Manchester
+  - start: 2018
+    end: 2021
+    experience: Graduate Teaching Assistant, University of Manchester
+  - start: 2021
+    end: 2021
+    experience : CFD Methodology PhD Intern, McLaren Formula One Team
+
 interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
+  - Computational Fluid Mechanics
+  - Large Eddy Simulations (LES)
+  - Reynolds Averaged Navier Stokes (RANS)
+  - Hybrid RANS-LES
+  - Multi-fidelity Methods
+  - Machine Learning
 skills: # Remove for hiding the skills section
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  -  OpenFOAM
+  -  Star-CCM+
+  -  XCompact3D
+  -  Python
+  -  Fortran
+  -  C++
+  -  Git
+  -  Bash
+  -  HPC
+  -  Latex
+    # value: 85  # Percent value
 social:
-  email:  # Full email address, e.g. "sample@google.com"
-  orcid: 
-  scholar: 
+  # email:    "andrew.mole@manchester.ac.uk"
+  email:    "a.mole@imperial.ac.uk"
+  orcid:    0000-0001-9950-0096
+  scholar:  
   publons: 
   research_gate: 
   dblp:  # Full URL
   semantic_scholar:  # Full URL
   linkedin:  # Full URL 
-  github: chrjabs
+  github: admole
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
-  twitter: chrjabs
+  twitter: 
   youtube:
   facebook:
   instagram:
-awards: # Remove for hiding the awards section
-  - "This is an award I got"
+# awards: # Remove for hiding the awards section
+  # - "This is an award I got"

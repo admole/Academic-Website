@@ -1,34 +1,35 @@
 # Site Settings
-baseurl: "/Grape-Academic-Theme"
+baseurl: ""
 
 # Features Setting
 # Turn subpages on or off
 publications: True
 presentations: True
-blog: True
+blog: False
+cv: True
 
 # Language of the website
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
+title: Andrew Mole
+tagline: Researcher in Multi-fidelity CFD
 description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
+author: Andrew Mole
 twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
+  username: moleypoley
+  card: 
 logo: /assets/img/smile.png
 social:
-  name: Christoph Jabs
+  name: Andrew Mole
   links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
+    - https://twitter.com/moleypoley
+    - https://github.com/admole
 locale: en_GB
 
 # Page Settings
 theme_settings:
-  title: Grape Academic Theme
+  title: Andrew Mole
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
@@ -55,8 +56,8 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
-  first_name: [Myself, M.]
+  last_name: Mole
+  first_name: [Andrew, A.]
   sort_by: year,month
   order: descending,ascending
 

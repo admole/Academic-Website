@@ -1,11 +1,35 @@
 - presentation:
+    title: Enhancing Wind Farm Efficiency through Multi-Fidelity Bayesian Optimisation
+    event: American Physical Society Division of Fluid Dynamics
+    date: 11/2024
+- presentation:
+    title: 'AI Controlled Wind Farms: Bayesian Optimisation and Reinforcement Learning'
+    event: AI for NetZero Webinar Series
+    date: 10/2024
+- presentation:
+    title: 'Static and Dynamic Control for Wind Farm Wake Steering using LES'
+    event: European Fluid Dynamics Conference
+    slides: https://www.conftool.org/efdc1/index.php/Mole-Static_and_Dynamic_Control_for_Wind_Farm_Wake_Steering_using_LES-461.pdf?page=downloadPaper&filename=Mole-Static_and_Dynamic_Control_for_Wind_Farm_Wake_Steering_using_LES-461.pdf&form_id=461
+    date: 09/2024
+- presentation:
+    title: 'Multi-Fidelity Bayesian Optimisation for Wind Farms'
+    event: European Congress on Computational Methods in Applied Sciences and Engineering
+    slides: https://eccomas2024.org/event/contribution/9732e6b5-96d0-11ee-8a2d-000c29ddfc0c
+    date: 06/2024
+- presentation:
+    title: 'Efficient Experimental Design using Multi-Fidelity Bayesian Optimisation'
+    event: Durham HPC/AI Days 2024
+    slides: https://scicomp.webspace.durham.ac.uk/events/code_performance_series/durham-hpc-days-2024/hpc-days-2024-abstracts/#thu-04
+    date: 05/2024
+- presentation:
     title: LES/Wake Model Multi-fidelity Bayesian Optimisation for Wind Farms
     event: UK Turbulence Consortium Meeting
     comment: __Prize for Best Presentation__
     date: 03/2024
 - presentation:
     title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
-    event: Machine Leaning for Fluid Dynamics Workshop
+    event:
+    slides: https://www.ercoftac.org/downloads/events/2024/ml4fluid/ml4fluid_programme_day_3_8th_march_2024.pdf
     date: 03/2024
 - presentation:
     title: XGBoost-augmented RANS Closure Modelling of Complex 3D FLows

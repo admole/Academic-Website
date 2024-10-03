@@ -5,6 +5,7 @@
 - presentation:
     title: 'AI Controlled Wind Farms: Bayesian Optimisation and Reinforcement Learning'
     event: AI for NetZero Webinar Series
+    slides: https://www.youtube.com/live/7nuxPMBUeMw?si=_bqki0B2K3SOJDDv
     date: 10/2024
 - presentation:
     title: 'Static and Dynamic Control for Wind Farm Wake Steering using LES'
@@ -28,7 +29,7 @@
     date: 03/2024
 - presentation:
     title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
-    event:
+    event: ERCOFTAC Workshop on Machine Learning for Fluid Dynamics
     slides: https://www.ercoftac.org/downloads/events/2024/ml4fluid/ml4fluid_programme_day_3_8th_march_2024.pdf
     date: 03/2024
 - presentation:

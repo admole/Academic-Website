@@ -1,4 +1,8 @@
 - presentation:
+    title: Active Wind Farm Control using Reinforcement Learning 
+    event: AI for Net Zero Conference
+    date: 12/2024
+- presentation:
     title: Enhancing Wind Farm Efficiency through Multi-Fidelity Bayesian Optimisation
     event: American Physical Society Division of Fluid Dynamics
     slides: https://meetings.aps.org/Meeting/DFD24/Session/ZC37.4 
@@ -10,7 +14,7 @@
     date: 10/2024
 - presentation:
     title: 'AI Controlled Wind Farms: Bayesian Optimisation and Reinforcement Learning'
-    event: AI for NetZero Webinar Series
+    event: AI for Net Zero Webinar Series
     slides: https://www.youtube.com/live/7nuxPMBUeMw?si=_bqki0B2K3SOJDDv
     date: 10/2024
 - presentation:

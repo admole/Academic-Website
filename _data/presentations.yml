@@ -3,6 +3,11 @@
     event: American Physical Society Division of Fluid Dynamics
     date: 11/2024
 - presentation:
+    title: Exploring new computational frontiers with SmartSim
+    event: ARCHER2 Webinar
+    slides: https://www.archer2.ac.uk/training/courses/241024-smartsim-vt/
+    date: 10/2024
+- presentation:
     title: 'AI Controlled Wind Farms: Bayesian Optimisation and Reinforcement Learning'
     event: AI for NetZero Webinar Series
     slides: https://www.youtube.com/live/7nuxPMBUeMw?si=_bqki0B2K3SOJDDv

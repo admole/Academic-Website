@@ -3,21 +3,21 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: 
     image:
-      path: "RL_short_slow.gif" # path: assets/project/
+      path: "Wind-RL.png" # path: assets/project/
       alt: Optimised Wind Farm Wake Control
-    date: 12/2023 &ndash; 
+    date: 01/2024 &ndash; 
     title: Reinforcement Learning for Dynamic Wind Farm Control
     summary: Reinforcement learning is applied to a LES wind farm environment to find dynamic control stratagies for improving power output.
     description: Reinforcement learning is applied to a LES wind farm environment to find dynamic control stratagies for improving power output. 
     contents:
-      - title: 1. Wind Farm Environment
+      - title: 1. SmartSim
         image:
-          path: "Wind-RL.png"
-        description: 
-      - title: 2. Ongoing work...
-        image:
-          path: 
-        description: 
+          path: "smartsim.png"
+        description: SmartSim and SmartRedis are used to couple the Fortran wind farm simulations with the Python RL code. This allows for multiple environments to run in parallel on HPC efficiently.
+      - title: 2. Active Controller 
+        image: 
+          path: "RL.gif"
+        description: The RL agent learns a dynamic control stratagy based on flow measurements that increases the power output. 
 
 
 - project:
@@ -27,23 +27,27 @@
     image:
       path: "over_iso.gif" # path: assets/project/
       alt: Optimised Wind Farm Wake Control
-    date: 07/2023 &ndash; 
+    date: 07/2023 &ndash; 12/2024 
     title: Multi-Fidelity Bayesian Optimisation for Wind Farms
     summary: The total power output of  a wind farm is increased by using multi-fidelity Bayesian optimisation to find optimal turbine controls in an efficiient way.
     description: A multi-fidelity Bayesian optimisation method is applied to wind farm wake steering for increasing the power output.
     contents:
-      - title: 1. Multi-fidelity Bayesian optimiastion
+      - title: 1. Wind farm simulation fidelities
         image:
-          path: "MF_analytical_4.png"
+          path: "WindFarm_fidelities.png"
+        description:  Multiple approaches of calculating the wake interactions in a wind farm are available with diffent associated costs and accuracy.
+      - title: 2. Multi-fidelity Bayesian optimiastion
+        image:
+          path: "MF_WindFarm.png"
         description:  Multi-fidelity Bayesian optimiastion process is built based on a non-linear autoregressive Gaussian Process model and an acquisition function to select the next experiment configuration and fidelity.
-      - title: 2. Wind farm wake steering
+      # - title: 3. Wind farm wake steering
+      #   image:
+      #     path: "steering.png"
+      #   description: Yawing the angle of the turbines to the incoming wind direction within a wind farm can increase the total power output of the farm. 
+      - title: 3. Optimisation Result
         image:
-          path: "steering.png"
-        description: Yawing the angle of the turbines to the incoming wind direction within a wind farm can increase the total power output of the farm. 
-      - title: 3. Large Eddy Simulations
-        image:
-          path: "MF-BO.png"
-        description: Combining LES simulations and analytical wake models in a multi-fidelity bayesian optimisation framework allows cheap experiments to inform the optimal placement of expensive experiments.
+          path: "BO_result.png"
+        description: Combining LES simulations and analytical wake models in a multi-fidelity bayesian optimisation framework allows cheap experiments to inform the optimal placement of expensive experiments that find improved yaw steering strategies.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -61,6 +65,10 @@
         image:
           path: "3D-1D.png"
         description: Coupling global 3D domain to global 1D domain by introducing corrective source terms.
+      - title: 2. Mixed-dimensional multi-fidelity modelling
+        image:
+          path: "MDMF.png"
+        description: Multi-fidelity surrogate modelling methods were developed for application to mixed-dimensional data. In this example the low fidelity data is singular data points and the high fidelity is one dimensional data.
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -81,6 +89,22 @@
         image:
           path: "MFR_slice.png"
 
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    image:
+      path: "F1_RANS_LES.png" # path: assets/project/
+      alt: Vortices around front wing. 
+    date: 10/2021 &ndash; 10/2022
+    title: Formula One Front Wing
+    summary: Application of Embedded LES approach to a McLaren Front wing geometry.
+    description: Acurately capturing the vortices that are generated by the front wing is particuarly difficult.
+    contents:
+      - title: 1. Embedded LES applied to front wing flow
+        image:
+          path: "F1_ELES.png"
+        description: I integrated the Ebedded LES approach into Mclaren Formula One Team’s CFD workflow using Git and Spack and tested it on a front wing geometry with automated mesh generation.
+
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -90,8 +114,8 @@
       alt: "a slice of the velocity around tandem cubes using ELES"
     date: 07/2018 &ndash; 10/2021
     title: Embedded Large Eddy Simulations
-    summary: Developing a nested Embedded Large Eddy Simulation approach for application to motorsport aerodynamics.
-    description: Developing a nested Embedded Large Eddy Simulation approach for application to motorsport aerodynamics. 
+    description: Developing a nested Embedded Large Eddy Simulation approach for turbulent flow simulations.
+    summary: Coupling together RANS and LES approaches on seperate meshes. This allows for the high-fidelity scale resolved LES to be focussed only in regions where it is needed.
     contents:
         - title: 1. Nested Framework
           image:

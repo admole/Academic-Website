@@ -37,13 +37,15 @@ skills: # Remove for hiding the skills section
   -  OpenFOAM
   -  Star-CCM+
  # -  Git
+ # - PyTorch
   # -  Bash
   # -  HPC
   # -  Latex
 social:
   email:    "a.mole@imperial.ac.uk"
-  orcid:    0000-0001-9950-0096
-  scholar:  
+  # orcid:    0000-0001-9950-0096
+  orcid:
+  scholar:  4khd7j4AAAAJ&hl=en&oi=ao
   publons: 
   research_gate: 
   dblp:  # Full URL

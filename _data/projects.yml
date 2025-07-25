@@ -3,7 +3,7 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: 
     image:
-      path: "Wind-RL.png" # path: assets/project/
+      path: "WindFarm_RL_Diagram.png" # path: assets/project/
       alt: Optimised Wind Farm Wake Control
     date: 01/2024 &ndash; 
     title: Reinforcement Learning for Dynamic Wind Farm Control
@@ -17,7 +17,11 @@
       - title: 2. Active Controller 
         image: 
           path: "RL.gif"
-        description: The RL agent learns a dynamic control stratagy based on flow measurements that increases the power output. 
+        description: The RL agent learns a dynamic control stratagy that responds to fluctautions in the turbulent wind conditions. 
+      - title: 3. Power Increase
+        image: 
+          path: "RL_power.png"
+        description: The active RL controller gives 2x the power increase that a staticly optimised stratagy yeilds. 
 
 
 - project:

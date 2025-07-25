@@ -1,14 +1,23 @@
 - presentation:
-    title: Active Wind Farm Control using Reinforcement Learning 
+    title: 'Reinforcement Learning Controlled Wind Farms'
+    event: Joint Euromech Colloquium on Data-Driven Fluid Dynamics/2nd ERCOFTAC Workshop on Machine Learning for Fluid Dynamics
+    date: 04/2024
+- presentation:
+    title: 'Reinforcement Learning for Active Wind Farm control in an LES Environment'
+    event: UK Turbulence Consortium Meeting
+    date: 03/2024
+- presentation:
+    title: 'Active Wind Farm Control using Reinforcement Learning '
     event: AI for Net Zero Conference
+    slides: https://netzeroplus.ac.uk/wp-content/uploads/2024/12/Abstracts.pdf
     date: 12/2024
 - presentation:
-    title: Enhancing Wind Farm Efficiency through Multi-Fidelity Bayesian Optimisation
+    title: 'Enhancing Wind Farm Efficiency through Multi-Fidelity Bayesian Optimisation'
     event: American Physical Society Division of Fluid Dynamics
     slides: https://meetings.aps.org/Meeting/DFD24/Session/ZC37.4 
     date: 11/2024
 - presentation:
-    title: Exploring new computational frontiers with SmartSim
+    title: 'Exploring new computational frontiers with SmartSim'
     event: ARCHER2 Webinar
     slides: https://www.archer2.ac.uk/training/courses/241024-smartsim-vt/
     date: 10/2024
@@ -33,59 +42,59 @@
     slides: https://scicomp.webspace.durham.ac.uk/events/code_performance_series/durham-hpc-days-2024/hpc-days-2024-abstracts/#thu-04
     date: 05/2024
 - presentation:
-    title: LES/Wake Model Multi-fidelity Bayesian Optimisation for Wind Farms
+    title: 'LES/Wake Model Multi-fidelity Bayesian Optimisation for Wind Farms'
     event: UK Turbulence Consortium Meeting
     comment: __Prize for Best Presentation__
     date: 03/2024
 - presentation:
-    title: Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines
+    title: 'Multi-fidelity Bayesian Optimisation for the Control of Wind Turbines'
     event: ERCOFTAC Workshop on Machine Learning for Fluid Dynamics
     slides: https://www.ercoftac.org/downloads/events/2024/ml4fluid/ml4fluid_programme_day_3_8th_march_2024.pdf
     date: 03/2024
 - presentation:
-    title: XGBoost-augmented RANS Closure Modelling of Complex 3D FLows
+    title: 'XGBoost-augmented RANS Closure Modelling of Complex 3D FLows'
     event: UK Fluids Network Workshop in Data-driven Methods, Machine Learning and Optimisation in fluid Mechanics
     slides: https://fluids.leeds.ac.uk/wp-content/uploads/sites/44/2022/10/Andrew-Mole.pdf
     date: 03/2023
 - presentation:
-    title: Multi-fidelity Surrogate Modelling of Wall Mounted Cubes
+    title: 'Multi-fidelity Surrogate Modelling of Wall Mounted Cubes'
     event: UK Turbulence Consortium Meeting
     comment: __Prize for Best Presentation__
     date: 03/2023
 - presentation:
-    title: Multi-fidelity Methods for Aerodynamic Applications
+    title: 'Multi-fidelity Methods for Aerodynamic Applications'
     event: The 8th European Congress on Computational Methods in Applied Sciences and Engineering
     date: 06/2022
 - presentation:
-    title: Multi-fidelity Methods for Aerodynamic Applications
+    title: 'Multi-fidelity Methods for Aerodynamic Applications'
     event: Modelling and Simulation Center Seminar series
     date: 05/2022
 - presentation:
-    title: Multi-fidelity Surrogate Modelling for Aerodynamic Applications
+    title: 'Multi-fidelity Surrogate Modelling for Aerodynamic Applications'
     event: BAE Systems Physics Informed Machine Learning Seminar
     date: 04/2022
 - presentation:
-    title: Addressing the Challenges of Combined Embedded LES
+    title: 'Addressing the Challenges of Combined Embedded LES'
     event: Engineering, Turbulence, Modelling and Measurements Symposium
     date: 09/2021
     # slides: https://www.google.com # potential link to slides
     # hub: example-hub # potential hub page to link to
 - presentation:
-    title: Recent Developments in Embedded Large Eddy Simulation
+    title: 'Recent Developments in Embedded Large Eddy Simulation'
     event: UK Turbulence Consortium Fundamentals Series
     date: 06/2021
     slides: https://youtu.be/OK3Zno9pbXo?t=1008
 - presentation:
-    title: Embedded LES of Streamwise Vortices Within a Turbulent Boundary Layer
+    title: 'Embedded LES of Streamwise Vortices Within a Turbulent Boundary Layer'
     event: MACE Postgraduate Conference
     comment: __Prize for Best Presentation__
     date: 06/2020
 - presentation:
-    title: Embedded LES of Turbulent Boundary Layers
+    title: 'Embedded LES of Turbulent Boundary Layers'
     event: UK Fluids Network Special Interest Group
     date: 09/2019
     slides: assets/Posters/vortex-poster.pdf
 - presentation:
-    title: Embedded Large Eddy Simulation of a Spatially Developing Turbulent Boundary Layer
+    title: 'Embedded Large Eddy Simulation of a Spatially Developing Turbulent Boundary Layer'
     event: European Turbulence Conference
     date: 09/2019

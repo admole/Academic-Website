@@ -1,7 +1,7 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: 
+    url: https://github.com/admole/Wind-RL # Full URL
     image:
       path: "WindFarm_RL_Diagram.png" # path: assets/project/
       alt: Optimised Wind Farm Wake Control
@@ -24,6 +24,7 @@
         description: The active RL controller gives 2x the power increase that a staticly optimised stratagy yeilds. 
 
 
+###########################################################################
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -53,6 +54,7 @@
           path: "BO_result.png"
         description: Combining LES simulations and analytical wake models in a multi-fidelity bayesian optimisation framework allows cheap experiments to inform the optimal placement of expensive experiments that find improved yaw steering strategies.
 
+###########################################################################
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -74,6 +76,7 @@
           path: "MDMF.png"
         description: Multi-fidelity surrogate modelling methods were developed for application to mixed-dimensional data. In this example the low fidelity data is singular data points and the high fidelity is one dimensional data.
 
+###########################################################################
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -93,6 +96,7 @@
         image:
           path: "MFR_slice.png"
 
+###########################################################################
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
@@ -109,6 +113,7 @@
           path: "F1_ELES.png"
         description: I integrated the Ebedded LES approach into Mclaren Formula One Team’s CFD workflow using Git and Spack and tested it on a front wing geometry with automated mesh generation.
 
+###########################################################################
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
